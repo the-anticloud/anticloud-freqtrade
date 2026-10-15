@@ -1,0 +1,830 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:f108bd32-8354-534e-aa16-663692ba1453",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-12T05:41:33Z",
+    "component": {
+      "type": "application",
+      "name": "FREQTRADE",
+      "version": "9af100d6822d",
+      "bom-ref": "pkg:generic/anticloud/FREQTRADE@9af100d6822d",
+      "purl": "pkg:generic/anticloud/FREQTRADE@9af100d6822d",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "9af100d6822da7d2d0291a906c730ef172284ee2"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": ""
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "aiohttp",
+      "version": ">=3.8.5",
+      "purl": "pkg:pypi/aiohttp@3.8.5",
+      "bom-ref": "pypi/aiohttp@>=3.8.5"
+    },
+    {
+      "type": "library",
+      "name": "aiomqtt",
+      "version": ">=2.0.0",
+      "purl": "pkg:pypi/aiomqtt@2.0.0",
+      "bom-ref": "pypi/aiomqtt@>=2.0.0"
+    },
+    {
+      "type": "library",
+      "name": "asyncssh",
+      "version": ">=2.13.2",
+      "purl": "pkg:pypi/asyncssh@2.13.2",
+      "bom-ref": "pypi/asyncssh@>=2.13.2"
+    },
+    {
+      "type": "library",
+      "name": "aioprocessing",
+      "version": ">=2.0.1",
+      "purl": "pkg:pypi/aioprocessing@2.0.1",
+      "bom-ref": "pypi/aioprocessing@>=2.0.1"
+    },
+    {
+      "type": "library",
+      "name": "aioresponses",
+      "version": ">=0.7.4",
+      "purl": "pkg:pypi/aioresponses@0.7.4",
+      "bom-ref": "pypi/aioresponses@>=0.7.4"
+    },
+    {
+      "type": "library",
+      "name": "aiounittest",
+      "version": ">=1.4.2",
+      "purl": "pkg:pypi/aiounittest@1.4.2",
+      "bom-ref": "pypi/aiounittest@>=1.4.2"
+    },
+    {
+      "type": "library",
+      "name": "aptos-sdk",
+      "version": ">=0.8.0",
+      "purl": "pkg:pypi/aptos-sdk@0.8.0",
+      "bom-ref": "pypi/aptos-sdk@>=0.8.0"
+    },
+    {
+      "type": "library",
+      "name": "async-timeout",
+      "version": ">=4.0.2,<5",
+      "purl": "pkg:pypi/async-timeout@4.0.2,<5",
+      "bom-ref": "pypi/async-timeout@>=4.0.2,<5"
+    },
+    {
+      "type": "library",
+      "name": "base58",
+      "version": ">=2.1.1",
+      "purl": "pkg:pypi/base58@2.1.1",
+      "bom-ref": "pypi/base58@>=2.1.1"
+    },
+    {
+      "type": "library",
+      "name": "bidict",
+      "version": ">=0.22.1",
+      "purl": "pkg:pypi/bidict@0.22.1",
+      "bom-ref": "pypi/bidict@>=0.22.1"
+    },
+    {
+      "type": "library",
+      "name": "Brotli",
+      "version": ">=1.2.0",
+      "purl": "pkg:pypi/brotli@1.2.0",
+      "bom-ref": "pypi/Brotli@>=1.2.0"
+    },
+    {
+      "type": "library",
+      "name": "cachetools",
+      "version": ">=5.3.1",
+      "purl": "pkg:pypi/cachetools@5.3.1",
+      "bom-ref": "pypi/cachetools@>=5.3.1"
+    },
+    {
+      "type": "library",
+      "name": "cryptography",
+      "version": ">=41.0.2",
+      "purl": "pkg:pypi/cryptography@41.0.2",
+      "bom-ref": "pypi/cryptography@>=41.0.2"
+    },
+    {
+      "type": "library",
+      "name": "decibel-python-sdk",
+      "version": "==0.2.1",
+      "purl": "pkg:pypi/decibel-python-sdk@0.2.1",
+      "bom-ref": "pypi/decibel-python-sdk@==0.2.1"
+    },
+    {
+      "type": "library",
+      "name": "eth-account",
+      "version": ">=0.13.0",
+      "purl": "pkg:pypi/eth-account@0.13.0",
+      "bom-ref": "pypi/eth-account@>=0.13.0"
+    },
+    {
+      "type": "library",
+      "name": "injective-py",
+      "version": ">=1.13",
+      "purl": "pkg:pypi/injective-py@1.13",
+      "bom-ref": "pypi/injective-py@>=1.13"
+    },
+    {
+      "type": "library",
+      "name": "numba",
+      "version": ">=0.61.2",
+      "purl": "pkg:pypi/numba@0.61.2",
+      "bom-ref": "pypi/numba@>=0.61.2"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": ">=2.2.6",
+      "purl": "pkg:pypi/numpy@2.2.6",
+      "bom-ref": "pypi/numpy@>=2.2.6"
+    },
+    {
+      "type": "library",
+      "name": "pandas",
+      "version": ">=2.3.2",
+      "purl": "pkg:pypi/pandas@2.3.2",
+      "bom-ref": "pypi/pandas@>=2.3.2"
+    },
+    {
+      "type": "library",
+      "name": "pandas-ta",
+      "version": ">=0.4.71b",
+      "purl": "pkg:pypi/pandas-ta@0.4.71b",
+      "bom-ref": "pypi/pandas-ta@>=0.4.71b"
+    },
+    {
+      "type": "library",
+      "name": "prompt_toolkit",
+      "version": ">=3.0.39",
+      "purl": "pkg:pypi/prompt-toolkit@3.0.39",
+      "bom-ref": "pypi/prompt_toolkit@>=3.0.39"
+    },
+    {
+      "type": "library",
+      "name": "protobuf",
+      "version": ">=4.23.3",
+      "purl": "pkg:pypi/protobuf@4.23.3",
+      "bom-ref": "pypi/protobuf@>=4.23.3"
+    },
+    {
+      "type": "library",
+      "name": "psutil",
+      "version": ">=5.9.5",
+      "purl": "pkg:pypi/psutil@5.9.5",
+      "bom-ref": "pypi/psutil@>=5.9.5"
+    },
+    {
+      "type": "library",
+      "name": "pydantic",
+      "version": ">=2",
+      "purl": "pkg:pypi/pydantic@2",
+      "bom-ref": "pypi/pydantic@>=2"
+    },
+    {
+      "type": "library",
+      "name": "pyjwt",
+      "version": ">=2.3.0",
+      "purl": "pkg:pypi/pyjwt@2.3.0",
+      "bom-ref": "pypi/pyjwt@>=2.3.0"
+    },
+    {
+      "type": "library",
+      "name": "pyperclip",
+      "version": ">=1.8.2",
+      "purl": "pkg:pypi/pyperclip@1.8.2",
+      "bom-ref": "pypi/pyperclip@>=1.8.2"
+    },
+    {
+      "type": "library",
+      "name": "requests",
+      "version": ">=2.31.0",
+      "purl": "pkg:pypi/requests@2.31.0",
+      "bom-ref": "pypi/requests@>=2.31.0"
+    },
+    {
+      "type": "library",
+      "name": "ruamel.yaml",
+      "version": ">=0.2.5",
+      "purl": "pkg:pypi/ruamel.yaml@0.2.5",
+      "bom-ref": "pypi/ruamel.yaml@>=0.2.5"
+    },
+    {
+      "type": "library",
+      "name": "scipy",
+      "version": ">=1.11.1",
+      "purl": "pkg:pypi/scipy@1.11.1",
+      "bom-ref": "pypi/scipy@>=1.11.1"
+    },
+    {
+      "type": "library",
+      "name": "six",
+      "version": ">=1.16.0",
+      "purl": "pkg:pypi/six@1.16.0",
+      "bom-ref": "pypi/six@>=1.16.0"
+    },
+    {
+      "type": "library",
+      "name": "solders",
+      "version": ">=0.19.0",
+      "purl": "pkg:pypi/solders@0.19.0",
+      "bom-ref": "pypi/solders@>=0.19.0"
+    },
+    {
+      "type": "library",
+      "name": "sqlalchemy",
+      "version": ">=1.4.49",
+      "purl": "pkg:pypi/sqlalchemy@1.4.49",
+      "bom-ref": "pypi/sqlalchemy@>=1.4.49"
+    },
+    {
+      "type": "library",
+      "name": "tabulate",
+      "version": "==0.9.0",
+      "purl": "pkg:pypi/tabulate@0.9.0",
+      "bom-ref": "pypi/tabulate@==0.9.0"
+    },
+    {
+      "type": "library",
+      "name": "TA-Lib",
+      "version": ">=0.6.4",
+      "purl": "pkg:pypi/ta-lib@0.6.4",
+      "bom-ref": "pypi/TA-Lib@>=0.6.4"
+    },
+    {
+      "type": "library",
+      "name": "tqdm",
+      "version": ">=4.67.1",
+      "purl": "pkg:pypi/tqdm@4.67.1",
+      "bom-ref": "pypi/tqdm@>=4.67.1"
+    },
+    {
+      "type": "library",
+      "name": "typer",
+      "version": ">=0.9.0",
+      "purl": "pkg:pypi/typer@0.9.0",
+      "bom-ref": "pypi/typer@>=0.9.0"
+    },
+    {
+      "type": "library",
+      "name": "ujson",
+      "version": ">=5.7.0",
+      "purl": "pkg:pypi/ujson@5.7.0",
+      "bom-ref": "pypi/ujson@>=5.7.0"
+    },
+    {
+      "type": "library",
+      "name": "urllib3",
+      "version": ">=1.26.15,<2.0",
+      "purl": "pkg:pypi/urllib3@1.26.15,<2.0",
+      "bom-ref": "pypi/urllib3@>=1.26.15,<2.0"
+    },
+    {
+      "type": "library",
+      "name": "xrpl-py",
+      "version": ">=4.4.0",
+      "purl": "pkg:pypi/xrpl-py@4.4.0",
+      "bom-ref": "pypi/xrpl-py@>=4.4.0"
+    },
+    {
+      "type": "library",
+      "name": "PyYaml",
+      "version": ">=0.2.5",
+      "purl": "pkg:pypi/pyyaml@0.2.5",
+      "bom-ref": "pypi/PyYaml@>=0.2.5"
+    },
+    {
+      "type": "library",
+      "name": "lighter-sdk",
+      "version": "==1.0.8",
+      "purl": "pkg:pypi/lighter-sdk@1.0.8",
+      "bom-ref": "pypi/lighter-sdk@==1.0.8"
+    },
+    {
+      "type": "library",
+      "name": "-stdlib",
+      "version": "=libc++",
+      "purl": "pkg:pypi/-stdlib@libc++",
+      "bom-ref": "pypi/-stdlib@=libc++"
+    },
+    {
+      "type": "library",
+      "name": "-std",
+      "version": "=c++11",
+      "purl": "pkg:pypi/-std@c++11",
+      "bom-ref": "pypi/-std@=c++11"
+    },
+    {
+      "type": "library",
+      "name": "--parallel",
+      "version": "={cpu_count}",
+      "purl": "pkg:pypi/--parallel@{cpu_count}",
+      "bom-ref": "pypi/--parallel@={cpu_count}"
+    },
+    {
+      "type": "library",
+      "name": "conda-forge",
+      "version": "unspecified",
+      "purl": "pkg:generic/conda-forge",
+      "bom-ref": "conda/conda-forge@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "defaults",
+      "version": "unspecified",
+      "purl": "pkg:generic/defaults",
+      "bom-ref": "conda/defaults@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "autopep8",
+      "version": "unspecified",
+      "purl": "pkg:generic/autopep8",
+      "bom-ref": "conda/autopep8@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "conda-build",
+      "version": "unspecified",
+      "purl": "pkg:generic/conda-build",
+      "bom-ref": "conda/conda-build@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "coverage",
+      "version": "unspecified",
+      "purl": "pkg:generic/coverage",
+      "bom-ref": "conda/coverage@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "cython",
+      "version": "unspecified",
+      "purl": "pkg:generic/cython",
+      "bom-ref": "conda/cython@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "flake8",
+      "version": "unspecified",
+      "purl": "pkg:generic/flake8",
+      "bom-ref": "conda/flake8@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "diff-cover",
+      "version": "unspecified",
+      "purl": "pkg:generic/diff-cover",
+      "bom-ref": "conda/diff-cover@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pip",
+      "version": "unspecified",
+      "purl": "pkg:generic/pip",
+      "bom-ref": "conda/pip@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pre-commit",
+      "version": "unspecified",
+      "purl": "pkg:generic/pre-commit",
+      "bom-ref": "conda/pre-commit@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "python",
+      "version": "unspecified",
+      "purl": "pkg:generic/python",
+      "bom-ref": "conda/python@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pytest",
+      "version": "unspecified",
+      "purl": "pkg:generic/pytest",
+      "bom-ref": "conda/pytest@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pytest-asyncio",
+      "version": "unspecified",
+      "purl": "pkg:generic/pytest-asyncio",
+      "bom-ref": "conda/pytest-asyncio@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pytest-timeout",
+      "version": "unspecified",
+      "purl": "pkg:generic/pytest-timeout",
+      "bom-ref": "conda/pytest-timeout@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "setuptools",
+      "version": "80.8.0",
+      "purl": "pkg:generic/setuptools@80.8.0",
+      "bom-ref": "conda/setuptools@80.8.0"
+    },
+    {
+      "type": "library",
+      "name": "installed",
+      "version": "unspecified",
+      "purl": "pkg:generic/installed",
+      "bom-ref": "conda/installed@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "aiohttp",
+      "version": "unspecified",
+      "purl": "pkg:generic/aiohttp",
+      "bom-ref": "conda/aiohttp@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "mocked",
+      "version": "unspecified",
+      "purl": "pkg:generic/mocked",
+      "bom-ref": "conda/mocked@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "asyncssh",
+      "version": "unspecified",
+      "purl": "pkg:generic/asyncssh",
+      "bom-ref": "conda/asyncssh@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "aioprocessing",
+      "version": "unspecified",
+      "purl": "pkg:generic/aioprocessing",
+      "bom-ref": "conda/aioprocessing@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "aioresponses",
+      "version": "unspecified",
+      "purl": "pkg:generic/aioresponses",
+      "bom-ref": "conda/aioresponses@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "aiounittest",
+      "version": "unspecified",
+      "purl": "pkg:generic/aiounittest",
+      "bom-ref": "conda/aiounittest@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "async-timeout",
+      "version": "unspecified",
+      "purl": "pkg:generic/async-timeout",
+      "bom-ref": "conda/async-timeout@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "bidict",
+      "version": "unspecified",
+      "purl": "pkg:generic/bidict",
+      "bom-ref": "conda/bidict@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "bip-utils",
+      "version": "unspecified",
+      "purl": "pkg:generic/bip-utils",
+      "bom-ref": "conda/bip-utils@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "brotli-python",
+      "version": "unspecified",
+      "purl": "pkg:generic/brotli-python",
+      "bom-ref": "conda/brotli-python@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "cachetools",
+      "version": "unspecified",
+      "purl": "pkg:generic/cachetools",
+      "bom-ref": "conda/cachetools@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "cryptography",
+      "version": "unspecified",
+      "purl": "pkg:generic/cryptography",
+      "bom-ref": "conda/cryptography@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "eth-account",
+      "version": "unspecified",
+      "purl": "pkg:generic/eth-account",
+      "bom-ref": "conda/eth-account@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "injective-py",
+      "version": "1.12.*",
+      "purl": "pkg:generic/injective-py@1.12.*",
+      "bom-ref": "conda/injective-py@1.12.*"
+    },
+    {
+      "type": "library",
+      "name": "libta-lib",
+      "version": "unspecified",
+      "purl": "pkg:generic/libta-lib",
+      "bom-ref": "conda/libta-lib@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "msgpack-python",
+      "version": "unspecified",
+      "purl": "pkg:generic/msgpack-python",
+      "bom-ref": "conda/msgpack-python@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "numba",
+      "version": "unspecified",
+      "purl": "pkg:generic/numba",
+      "bom-ref": "conda/numba@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "unspecified",
+      "purl": "pkg:generic/numpy",
+      "bom-ref": "conda/numpy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "objgraph",
+      "version": "unspecified",
+      "purl": "pkg:generic/objgraph",
+      "bom-ref": "conda/objgraph@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pandas",
+      "version": "unspecified",
+      "purl": "pkg:generic/pandas",
+      "bom-ref": "conda/pandas@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pandas-ta",
+      "version": "unspecified",
+      "purl": "pkg:generic/pandas-ta",
+      "bom-ref": "conda/pandas-ta@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "prompt_toolkit",
+      "version": "unspecified",
+      "purl": "pkg:generic/prompt_toolkit",
+      "bom-ref": "conda/prompt_toolkit@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "protobuf",
+      "version": "unspecified",
+      "purl": "pkg:generic/protobuf",
+      "bom-ref": "conda/protobuf@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "psutil",
+      "version": "unspecified",
+      "purl": "pkg:generic/psutil",
+      "bom-ref": "conda/psutil@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ptpython",
+      "version": "unspecified",
+      "purl": "pkg:generic/ptpython",
+      "bom-ref": "conda/ptpython@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pydantic",
+      "version": "unspecified",
+      "purl": "pkg:generic/pydantic",
+      "bom-ref": "conda/pydantic@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pyjwt",
+      "version": "unspecified",
+      "purl": "pkg:generic/pyjwt",
+      "bom-ref": "conda/pyjwt@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pyperclip",
+      "version": "unspecified",
+      "purl": "pkg:generic/pyperclip",
+      "bom-ref": "conda/pyperclip@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "requests",
+      "version": "unspecified",
+      "purl": "pkg:generic/requests",
+      "bom-ref": "conda/requests@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ruamel.yaml",
+      "version": "unspecified",
+      "purl": "pkg:generic/ruamel.yaml",
+      "bom-ref": "conda/ruamel.yaml@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rust",
+      "version": "unspecified",
+      "purl": "pkg:generic/rust",
+      "bom-ref": "conda/rust@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "safe-pysha3",
+      "version": "unspecified",
+      "purl": "pkg:generic/safe-pysha3",
+      "bom-ref": "conda/safe-pysha3@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "scalecodec",
+      "version": "unspecified",
+      "purl": "pkg:generic/scalecodec",
+      "bom-ref": "conda/scalecodec@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "scipy",
+      "version": "unspecified",
+      "purl": "pkg:generic/scipy",
+      "bom-ref": "conda/scipy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "six",
+      "version": "unspecified",
+      "purl": "pkg:generic/six",
+      "bom-ref": "conda/six@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "base58",
+      "version": "unspecified",
+      "purl": "pkg:generic/base58",
+      "bom-ref": "conda/base58@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "sqlalchemy",
+      "version": "unspecified",
+      "purl": "pkg:generic/sqlalchemy",
+      "bom-ref": "conda/sqlalchemy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ta-lib",
+      "version": "unspecified",
+      "purl": "pkg:generic/ta-lib",
+      "bom-ref": "conda/ta-lib@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tabulate",
+      "version": "0.9.0",
+      "purl": "pkg:generic/tabulate@0.9.0",
+      "bom-ref": "conda/tabulate@0.9.0"
+    },
+    {
+      "type": "library",
+      "name": "tqdm",
+      "version": "unspecified",
+      "purl": "pkg:generic/tqdm",
+      "bom-ref": "conda/tqdm@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "typer",
+      "version": "unspecified",
+      "purl": "pkg:generic/typer",
+      "bom-ref": "conda/typer@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ujson",
+      "version": "unspecified",
+      "purl": "pkg:generic/ujson",
+      "bom-ref": "conda/ujson@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tests",
+      "version": "unspecified",
+      "purl": "pkg:generic/tests",
+      "bom-ref": "conda/tests@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "urllib3",
+      "version": "unspecified",
+      "purl": "pkg:generic/urllib3",
+      "bom-ref": "conda/urllib3@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "web3",
+      "version": "unspecified",
+      "purl": "pkg:generic/web3",
+      "bom-ref": "conda/web3@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xrpl-py",
+      "version": "4.4.0",
+      "purl": "pkg:generic/xrpl-py@4.4.0",
+      "bom-ref": "conda/xrpl-py@4.4.0"
+    },
+    {
+      "type": "library",
+      "name": "yaml",
+      "version": "unspecified",
+      "purl": "pkg:generic/yaml",
+      "bom-ref": "conda/yaml@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "zlib",
+      "version": "unspecified",
+      "purl": "pkg:generic/zlib",
+      "bom-ref": "conda/zlib@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "aiomqtt",
+      "version": "unspecified",
+      "purl": "pkg:generic/aiomqtt",
+      "bom-ref": "conda/aiomqtt@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "decibel-python-sdk",
+      "version": "0.2.1",
+      "purl": "pkg:generic/decibel-python-sdk@0.2.1",
+      "bom-ref": "conda/decibel-python-sdk@0.2.1"
+    },
+    {
+      "type": "library",
+      "name": "aptos-sdk",
+      "version": "unspecified",
+      "purl": "pkg:generic/aptos-sdk",
+      "bom-ref": "conda/aptos-sdk@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "solders",
+      "version": "unspecified",
+      "purl": "pkg:generic/solders",
+      "bom-ref": "conda/solders@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "lighter-sdk",
+      "version": "1.0.8",
+      "purl": "pkg:generic/lighter-sdk@1.0.8",
+      "bom-ref": "conda/lighter-sdk@1.0.8"
+    }
+  ]
+}
