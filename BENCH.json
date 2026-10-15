@@ -2,13 +2,11 @@
  "schema": "anticloud.tier-bench/1",
  "project": "FREQTRADE",
  "source": {
-  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\CRYPTOCURRENCY\\FREQTRADE\\UPSTREAM_CLONE",
   "git": {
-   "head": "9af100d6822da7d2d0291a906c730ef172284ee2",
-   "url": "https://github.com/hummingbot/hummingbot",
-   "branch": "master",
-   "committed_at": "",
-   "sha_verified_from": "GitHub API substitute swap 2026-10-12 | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/freqtrade/freqtrade",
+   "head": "b33068949fc16e69e288e0a5bef5bd1f086f0a27",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/hummingbot/hummingbot"
   }
  },
  "metrics": {
